@@ -96,7 +96,7 @@ body {
 
 /*used fontspring.com, might run from web server to see font*/
 h2 {
-    font-family: "BalboaW01-Medium";
+    font-family: "BalboaW01-Medium", "Francois One", "Anton";
 }
 
 #content {
