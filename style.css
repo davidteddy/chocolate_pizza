@@ -25,7 +25,7 @@ body {
     margin-top: 40px;
 }
 
-ul {
+#header-group ul {
     display: flex;
     list-style: none;
 }
@@ -111,6 +111,41 @@ hr.hr--logo:after {
     background: #FFFFFF;
 }
 
+#shopping-list {
+  position: relative;
+}
+
+#shopping-text {
+  margin-top: 22px;
+  position: absolute;
+  top: 0px;
+}
+
+#shopping-list li {
+    font-family: "Patrick Hand SC", "Swanky+and+Moo+Moo", sans-serif;
+    line-height: 31px;
+    font-size: 1.5em;
+}
+
+#shopping-list ul {
+  list-style: none;
+}
+
+#shopping-col-1 {
+  margin-left: 40px;
+  width: 50%;
+}
+
+#shopping-col-2 {
+  width: 50%;
+  padding-left: 150px;
+}
+
+#shopping-text {
+  display: flex;
+  color: #7c7c7c;
+}
+
 #copy {
     text-align: center;
     color: lightgrey;
@@ -136,35 +171,30 @@ footer {
 }
 
 #share-recipe-container {
-  margin-top: 9px;
-  
+    margin-top: 9px;
 }
 
 #share-recipe-button {
-  background-color: #BC7058;
-  color: white;
-  padding: 15px 30px;
-  border-width: 0px;
-  font-family: "Rajdhani", sans-serif;
-  font-size: 20px;
+    background-color: #BC7058;
+    color: white;
+    padding: 15px 30px;
+    border-width: 0;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
 }
 
 #vanessa-description {
-  color: #7c7c7c;
-  font-family: "Noto Serif", serif;
-  line-height: 20px;
+    color: #7C7C7C;
+    font-family: "Noto Serif", serif;
+    line-height: 20px;
 }
 
 #vanessa-text {
-  color: #7c7c7c;
-  margin-left: 20px;
-  margin-right: 60px;
+    color: #7C7C7C;
+    margin-left: 20px;
+    margin-right: 60px;
 }
 
 #profile {
-  display: flex;
-}
-
-.list-item {
-  font-family: "Patrick Hand SC", "Swanky+and+Moo+Moo", sans-serif;
+    display: flex;
 }
