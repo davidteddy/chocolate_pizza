@@ -3,13 +3,13 @@
 To ensure all web-fonts load, run on a webserver
 
 ###With gulp and browser-sync
-Install gulp and browser-sync using yarn or npm.
+Install gulp and browser-sync from package.json using npm or bower
 
 install with yarn:
-`yarn install browser-sync gulp --save`
+`yarn install`
 
 install with npm:
-`npm install browser-sync gulp --save`
+`npm install`
 
 then,
 run using `gulp serve`
