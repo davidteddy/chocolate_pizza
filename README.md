@@ -9,7 +9,7 @@ install with yarn:
 `yarn install browser-sync gulp --save`
 
 install with npm:
-`npm install browser-sync gulp --save'
+`npm install browser-sync gulp --save`
 
 then,
-run `gulp serve'
+run using `gulp serve`
