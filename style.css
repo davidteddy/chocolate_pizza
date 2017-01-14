@@ -58,9 +58,9 @@ body {
 }
 
 #logo-text-sub {
-  font-family: "Share Tech";
-  color: #A2A2A2;
-  font-size: 0.8em;
+    font-family: "Share Tech";
+    color: #A2A2A2;
+    font-size: 0.8em;
 }
 
 #content > img {
@@ -87,7 +87,14 @@ body {
     margin-top: 30px;
 }
 
-/*used fontspring.com to match from snapshot*/
+#print-icon {
+    float: right;
+    font-family: "Share Tech";
+    font-size: 0.8em;
+    color: #7C7C7C;
+}
+
+/*used fontspring.com, might run from web server to see font*/
 h2 {
     font-family: "BalboaW01-Medium";
 }
@@ -121,38 +128,42 @@ hr.hr--logo:after {
 }
 
 #shopping-list {
-  position: relative;
+    position: relative;
+}
+
+#shopping-notepad {
+    width: 100%;
 }
 
 #shopping-text {
-  margin-top: 22px;
-  position: absolute;
-  top: 0px;
+    margin-top: 22px;
+    position: absolute;
+    top: 0;
 }
 
 #shopping-list li {
     font-family: "Patrick Hand", "Swanky+and+Moo+Moo", sans-serif;
-    line-height: 31px;
+    line-height: 33px;
     font-size: 1.5em;
 }
 
 #shopping-list ul {
-  list-style: none;
+    list-style-image: url("./img/checkbox.png");
 }
 
 #shopping-col-1 {
-  margin-left: 40px;
-  width: 50%;
+    margin-left: 40px;
+    width: 50%;
 }
 
 #shopping-col-2 {
-  width: 60%;
-  padding-left: 150px;
+    width: 60%;
+    padding-left: 150px;
 }
 
 #shopping-text {
-  display: flex;
-  color: #7c7c7c;
+    display: flex;
+    color: #7C7C7C;
 }
 
 #copy {
@@ -184,7 +195,7 @@ footer {
 }
 
 #share-recipe-container > a {
-      text-decoration: none;
+    text-decoration: none;
 }
 
 #share-recipe-button {
@@ -204,7 +215,7 @@ footer {
 
 #vanessa-text {
     font-weight: 700;
-    color: #5a5a5a;
+    color: #5A5A5A;
     margin-left: 20px;
     margin-right: 60px;
 }
